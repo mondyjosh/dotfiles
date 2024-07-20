@@ -1,0 +1,11 @@
+# $PATH additions
+PATH=$HOME/.local/scripts:$PATH
+PATH=$HOME/.local/bin:$PATH
+
+# TMUX Sessionizer: search for a directory, then open in new tmux session
+bindkey -s ^f "tmux-sessionizer\n"
+
+# Set aliases
+alias vim="nvim"
+alias fd="fdfind"
+
